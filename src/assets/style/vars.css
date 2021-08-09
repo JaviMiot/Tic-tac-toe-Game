@@ -1,0 +1,12 @@
+  :root {
+    --red: #bf0413;
+    --pink: #d90452;
+    --blue: #070373;
+    --blue-dark: #040740;
+    --blue-light: #1e3ad9;
+    --blue-sky: hsl(231, 82%, 62%);
+    --grey: hsl(231, 86%, 90%);
+    --blue-light-op: 30, 58, 217;
+    --white: #e5e7ff;
+  }
+  

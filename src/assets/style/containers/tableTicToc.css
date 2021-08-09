@@ -1,0 +1,10 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(var(--blue-light-op), 0.9);
+    border-radius: 15px;
+    box-shadow: 2px 3px 13px 2px var(--blue-dark);
+  }

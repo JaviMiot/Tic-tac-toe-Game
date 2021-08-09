@@ -1,0 +1,61 @@
+
+.image-cruz{
+    background-image:  url('../../images/icons/cross.png');
+}
+
+.image-circle{
+    background-image:  url('../../images//icons/circle.png');
+}
+
+.ficha-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+
+.btn-ficha{
+    height: 35px;
+    width: 35px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    border: none;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px hsl(240, 50%, 30%, 0.5) ;
+    cursor: pointer;
+}
+
+.btn-ficha:hover:enabled{
+    transform: scale(1.1);
+}
+
+.status_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.status_container p {
+  margin-bottom: 7px;
+  font-size: 1.8rem;
+}
+
+.status_container h3,
+.status_container h2,
+.status_container h3 span {
+  font-size: 2.1rem;
+}
+
+.status_container h2{
+    margin-bottom: 13px;
+}
+
+.status_container .btn-start{
+    height:35px;
+    width: 80px;
+}

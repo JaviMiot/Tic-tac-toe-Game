@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.square {
+  height: 70px;
+  width: 70px;
+  background-color: var(--white);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.image_equis__box {
+  background-image: url('../../images/icons/cross.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image_circle__box {
+  background-image: url('../../images/icons/circle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
